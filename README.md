@@ -28,7 +28,7 @@ Meet Acorn 🐿! They're a humanoid character doll rig, that aims to aid fast ga
 ## Installing
 
 * Clone the Acorn repo or download the latest release. Choose _one_ of the following.
-  * Download [.zip](https://github.com/diegodelarocha/Acorn/archive/master.zip) and extract to your project `/Assets`.
+  * Download [.zip](https://github.com/diegodelarocha/Acorn/archive/master.zip) and extract to your project `/Assets/`.
   * (git) Clone into your assets folder `git clone git@github.com:diegodelarocha/Acorn.git`
   * (git) Add repo as submodule `git submodule add git@github.com:diegodelarocha/Acorn.git Assets/acorn`
 
