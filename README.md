@@ -27,18 +27,19 @@ Meet Acorn 🐿! They're a humanoid character doll rig, that aims to aid fast ga
 
 ## Installing
 
-* Add the dependencies [EasyButtons](https://github.com/madsbangh/EasyButtons) and [GLTFUtility](https://github.com/sprylyltd/GLTFUtility) to your project. 
-
-* Clone the Acorn repo or download the latest release.
+* Clone the Acorn repo or download the latest release. Choose _one_ of the following.
   * Download [.zip](https://github.com/diegodelarocha/Acorn/archive/master.zip) and extract to your project assets.
   * (git) Clone into your assets folder `git clone git@github.com:diegodelarocha/Acorn.git`
   * (git) Add repo as submodule `git submodule add git@github.com:diegodelarocha/Acorn.git Assets/acorn`
 
 * Add the `/Assets/acorn` folder to your Unity project.
+* If you added the `/Assets/acorn` folder to your project manually, add dependency packages for [EasyButtons](https://github.com/madsbangh/EasyButtons) and [GLTFUtility](https://github.com/sprylyltd/GLTFUtility) manually to your project.
 
 
 ### How to install dependencies
 
+Dependencies are included by default on the `/Packages/manifest.json` file on the repo, but if you need to add them manually, you will need to add [EasyButtons](https://github.com/madsbangh/EasyButtons) and [GLTFUtility](https://github.com/sprylyltd/GLTFUtility) to your project.
+  
 Open Unity's Package Manager and add the following packages with the git URL: 
 
 * `https://github.com/madsbangh/EasyButtons.git#upm`
@@ -195,4 +196,4 @@ I just plea that if you choose to include violence in your content or project, p
 
 ## Wish List Features
 
-- Use Package Manager or any other method, to include/embed all dependencies, so installation is simpler for users.
+- Add Package Manager including dependencies implementation to make install more straightforward.
