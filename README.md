@@ -193,6 +193,6 @@ I just plea that if you choose to include violence in your content or project, p
 ---------
 
 
-## Wish List Features
+## Contributing - Wish List Features
 
 - Add Package Manager including dependencies implementation to make install more straightforward.
