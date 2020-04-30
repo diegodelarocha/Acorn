@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: acorn mask -CopyToAddAMask-
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: root
+    m_Weight: 1
+  - m_Path: root/transRotScale
+    m_Weight: 1
+  - m_Path: root/transRotScale/hip
+    m_Weight: 1
+  - m_Path: root/transRotScale/hip/chest
+    m_Weight: 1
+  - m_Path: root/transRotScale/hip/chest/head
+    m_Weight: 1
+  - m_Path: root/transRotScale/hip/chest/head/left_eye
+    m_Weight: 1
+  - m_Path: root/transRotScale/hip/chest/head/left_eye/left_pupil
+    m_Weight: 1
+  - m_Path: root/transRotScale/hip/chest/head/nose
+    m_Weight: 1
+  - m_Path: root/transRotScale/hip/chest/head/right_eye
+    m_Weight: 1
+  - m_Path: root/transRotScale/hip/chest/head/right_eye/right_pupil
+    m_Weight: 1
+  - m_Path: root/transRotScale/hip/chest/leftUp_arm
+    m_Weight: 1
+  - m_Path: root/transRotScale/hip/chest/leftUp_arm/leftLow_arm
+    m_Weight: 1
+  - m_Path: root/transRotScale/hip/chest/leftUp_arm/leftLow_arm/left_hand
+    m_Weight: 1
+  - m_Path: root/transRotScale/hip/chest/leftUp_arm/leftLow_arm/left_hand/left_thumb
+    m_Weight: 1
+  - m_Path: root/transRotScale/hip/chest/rightUp_arm
+    m_Weight: 1
+  - m_Path: root/transRotScale/hip/chest/rightUp_arm/rightLow_arm
+    m_Weight: 1
+  - m_Path: root/transRotScale/hip/chest/rightUp_arm/rightLow_arm/right_hand
+    m_Weight: 1
+  - m_Path: root/transRotScale/hip/chest/rightUp_arm/rightLow_arm/right_hand/right_thumb
+    m_Weight: 1
+  - m_Path: root/transRotScale/hip/leftUp_leg
+    m_Weight: 1
+  - m_Path: root/transRotScale/hip/leftUp_leg/leftLow_leg
+    m_Weight: 1
+  - m_Path: root/transRotScale/hip/leftUp_leg/leftLow_leg/left_foot
+    m_Weight: 1
+  - m_Path: root/transRotScale/hip/leftUp_leg/leftLow_leg/left_foot/left_toe
+    m_Weight: 1
+  - m_Path: root/transRotScale/hip/rightUp_leg
+    m_Weight: 1
+  - m_Path: root/transRotScale/hip/rightUp_leg/rightLow_leg
+    m_Weight: 1
+  - m_Path: root/transRotScale/hip/rightUp_leg/rightLow_leg/right_foot
+    m_Weight: 1
+  - m_Path: root/transRotScale/hip/rightUp_leg/rightLow_leg/right_foot/right_toe
+    m_Weight: 1
+  - m_Path: root/transRotScale/IK_handles
+    m_Weight: 1
+  - m_Path: root/transRotScale/IK_handles/left_elbow_pole
+    m_Weight: 1
+  - m_Path: root/transRotScale/IK_handles/left_foot_IK
+    m_Weight: 1
+  - m_Path: root/transRotScale/IK_handles/left_hand_IK
+    m_Weight: 1
+  - m_Path: root/transRotScale/IK_handles/left_knee_pole
+    m_Weight: 1
+  - m_Path: root/transRotScale/IK_handles/right_elbow_pole
+    m_Weight: 1
+  - m_Path: root/transRotScale/IK_handles/right_foot_IK
+    m_Weight: 1
+  - m_Path: root/transRotScale/IK_handles/right_hand_IK
+    m_Weight: 1
+  - m_Path: root/transRotScale/IK_handles/right_knee_pole
+    m_Weight: 1
+  - m_Path: root/transRotScale/interaction_objects
+    m_Weight: 1
