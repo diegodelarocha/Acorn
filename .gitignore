@@ -6,6 +6,9 @@
 [Ll]ogs/
 [Pp]rojectSettings/
 
+[Ii]mages/_edit/
+[Iimages]/_raw/
+
 # Uncomment this line if you wish to ignore the asset store tools plugin
 # [Aa]ssets/AssetStoreTools*
 
