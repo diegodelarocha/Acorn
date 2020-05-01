@@ -65,6 +65,8 @@ AvatarMask:
     m_Weight: 0
   - m_Path: root/transRotScale/IK_handles
     m_Weight: 0
+  - m_Path: root/transRotScale/IK_handles/head_IK
+    m_Weight: 0
   - m_Path: root/transRotScale/IK_handles/left_elbow_pole
     m_Weight: 0
   - m_Path: root/transRotScale/IK_handles/left_foot_IK
