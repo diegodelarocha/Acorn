@@ -9970,7 +9970,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: root/transRotScale/hip/chest/head/right_eye
+    path: root/transRotScale/hip/chest/head/left_eye/left_pupil
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -9980,7 +9980,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: root/transRotScale/hip/chest/head/right_eye
+    path: root/transRotScale/hip/chest/head/left_eye/left_pupil
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -9990,67 +9990,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: root/transRotScale/hip/chest/head/right_eye
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: root/transRotScale/hip/leftUp_leg/leftLow_leg
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: root/transRotScale/hip/leftUp_leg/leftLow_leg
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: root/transRotScale/hip/leftUp_leg/leftLow_leg
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: root/transRotScale/hip/leftUp_leg
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: root/transRotScale/hip/leftUp_leg
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: root/transRotScale/hip/leftUp_leg
+    path: root/transRotScale/hip/chest/head/left_eye/left_pupil
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10270,7 +10210,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: root/transRotScale/hip/chest/head/nose
+    path: root/transRotScale/hip/chest/leftUp_arm
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10280,7 +10220,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: root/transRotScale/hip/chest/head/nose
+    path: root/transRotScale/hip/chest/leftUp_arm
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10290,7 +10230,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: root/transRotScale/hip/chest/head/nose
+    path: root/transRotScale/hip/chest/leftUp_arm
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10300,7 +10240,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: root/transRotScale/hip/chest/head/left_eye/left_pupil
+    path: root/transRotScale/hip/chest/head/right_eye/right_pupil
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10310,7 +10250,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: root/transRotScale/hip/chest/head/left_eye/left_pupil
+    path: root/transRotScale/hip/chest/head/right_eye/right_pupil
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10320,7 +10260,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: root/transRotScale/hip/chest/head/left_eye/left_pupil
+    path: root/transRotScale/hip/chest/head/right_eye/right_pupil
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10420,7 +10360,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: root/transRotScale/hip/chest/leftUp_arm
+    path: root/transRotScale/hip
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10430,7 +10370,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: root/transRotScale/hip/chest/leftUp_arm
+    path: root/transRotScale/hip
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10440,7 +10380,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: root/transRotScale/hip/chest/leftUp_arm
+    path: root/transRotScale/hip
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10480,7 +10420,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: root/transRotScale/IK_handles/right_hand_IK
+    path: root/transRotScale/hip/chest/head/right_eye
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10490,7 +10430,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: root/transRotScale/IK_handles/right_hand_IK
+    path: root/transRotScale/hip/chest/head/right_eye
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10500,7 +10440,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: root/transRotScale/IK_handles/right_hand_IK
+    path: root/transRotScale/hip/chest/head/right_eye
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10990,7 +10930,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: root/transRotScale/hip
+    path: root/transRotScale/hip/leftUp_leg/leftLow_leg
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -11000,7 +10940,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: root/transRotScale/hip
+    path: root/transRotScale/hip/leftUp_leg/leftLow_leg
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -11010,7 +10950,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: root/transRotScale/hip
+    path: root/transRotScale/hip/leftUp_leg/leftLow_leg
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -11020,7 +10960,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: root/transRotScale/hip/chest/head/right_eye/right_pupil
+    path: root/transRotScale/hip/leftUp_leg
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -11030,7 +10970,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: root/transRotScale/hip/chest/head/right_eye/right_pupil
+    path: root/transRotScale/hip/leftUp_leg
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -11040,7 +10980,67 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: root/transRotScale/hip/chest/head/right_eye/right_pupil
+    path: root/transRotScale/hip/leftUp_leg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: root/transRotScale/IK_handles/right_hand_IK
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: root/transRotScale/IK_handles/right_hand_IK
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: root/transRotScale/IK_handles/right_hand_IK
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: root/transRotScale/hip/chest/head/nose
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: root/transRotScale/hip/chest/head/nose
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: root/transRotScale/hip/chest/head/nose
     classID: 4
     script: {fileID: 0}
   - curve:

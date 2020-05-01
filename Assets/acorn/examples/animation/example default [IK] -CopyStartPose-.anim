@@ -9970,7 +9970,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: root/transRotScale/IK_handles/right_foot_IK
+    path: root/transRotScale/IK_handles/right_elbow_pole
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -9980,7 +9980,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: root/transRotScale/IK_handles/right_foot_IK
+    path: root/transRotScale/IK_handles/right_elbow_pole
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -9990,37 +9990,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: root/transRotScale/IK_handles/right_foot_IK
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: root/transRotScale/hip/chest/leftUp_arm
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: root/transRotScale/hip/chest/leftUp_arm
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: root/transRotScale/hip/chest/leftUp_arm
+    path: root/transRotScale/IK_handles/right_elbow_pole
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10270,7 +10240,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: root/transRotScale/IK_handles/right_elbow_pole
+    path: root/transRotScale/IK_handles/right_knee_pole
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10280,7 +10250,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: root/transRotScale/IK_handles/right_elbow_pole
+    path: root/transRotScale/IK_handles/right_knee_pole
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10290,7 +10260,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: root/transRotScale/IK_handles/right_elbow_pole
+    path: root/transRotScale/IK_handles/right_knee_pole
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10990,7 +10960,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: root/transRotScale/IK_handles/right_knee_pole
+    path: root/transRotScale/hip/chest/leftUp_arm
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -11000,7 +10970,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: root/transRotScale/IK_handles/right_knee_pole
+    path: root/transRotScale/hip/chest/leftUp_arm
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -11010,7 +10980,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: root/transRotScale/IK_handles/right_knee_pole
+    path: root/transRotScale/hip/chest/leftUp_arm
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -11041,6 +11011,36 @@ AnimationClip:
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
     path: root/transRotScale/IK_handles/right_hand_IK
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: root/transRotScale/IK_handles/right_foot_IK
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: root/transRotScale/IK_handles/right_foot_IK
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: root/transRotScale/IK_handles/right_foot_IK
     classID: 4
     script: {fileID: 0}
   - curve:
