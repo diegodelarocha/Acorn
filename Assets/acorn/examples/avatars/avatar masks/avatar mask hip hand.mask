@@ -85,3 +85,9 @@ AvatarMask:
     m_Weight: 0
   - m_Path: root/transRotScale/interaction_objects
     m_Weight: 0
+  - m_Path: root/transRotScale/interaction_objects/triggerSound01
+    m_Weight: 0
+  - m_Path: root/transRotScale/interaction_objects/triggerSound02
+    m_Weight: 0
+  - m_Path: root/transRotScale/interaction_objects/triggerSound03
+    m_Weight: 0
