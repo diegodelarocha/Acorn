@@ -197,4 +197,4 @@ I just plea that if you choose to include violence in your content or project, p
 ## Contributing - Wish List Features
 
 - Add Package Manager including dependencies implementation to make install more straightforward.
-- Add Stretchy limbs to character, Right now the logic is there, but it's kinda buggy.
+- Add Stretchy limbs to character, Right now the logic is there, but it's kinda buggy. You can check the not working script on the [Stretchy-limbs](https://github.com/diegodelarocha/Acorn/tree/Stretchy-limbs) branch.
