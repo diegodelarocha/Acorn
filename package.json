@@ -1,0 +1,47 @@
+{
+  "name": "com.diegodelarocha.acorn",
+  "version": "0.1.0",
+  "displayName": "Acorn",
+  "description": "Meet Acorn! They're a humanoid character doll rig, that aims to aid fast game design prototyping, and better communication between game designers and animators in Unity.",
+  "author": {
+    "name": "Diego De la Rocha",
+    "url": "https://diegodelarocha.com"
+  },
+
+  "dependencies": {
+    "com.madsbangh.easybuttons": "1.0.0",
+    "com.siccity.gltfutility": "0.6.0"
+  },
+  
+  "keywords": [
+    "acorn",
+    "rig",
+    "humanoid",
+    "avatar",
+    "character",
+    "prototyping",
+    "animation",
+    "animator",
+    "game design",
+    "game designer",
+    "tool",
+    "communication"
+  ],
+  
+  "samples": [
+    {
+      "displayName": "acorn",
+      "path": "Samples/acorn"
+    },
+    {
+      "displayName": "examples",
+      "path": "Samples/examples [not for production use]"
+    },
+    {
+      "displayName": "setup",
+      "path": "Samples/setup assets [not for production use]"
+    }
+  ],
+  "hideInEditor": false,
+  "unity": "2019.3"
+}
