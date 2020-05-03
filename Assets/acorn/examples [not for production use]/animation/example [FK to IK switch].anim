@@ -3951,6 +3951,15 @@ AnimationClip:
         weightedMode: 0
         inWeight: 0
         outWeight: 0
+      - serializedVersion: 3
+        time: 1.625
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -4287,25 +4296,6 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: handlesVis
-    path: 
-    classID: 114
-    script: {fileID: 11500000, guid: 21522589def544b70893a5538b828b02, type: 3}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 103
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
     attribute: m_Enabled
     path: root/transRotScale/IK_handles/head_IK
     classID: 23
@@ -4322,6 +4312,24 @@ AnimationClip:
         weightedMode: 0
         inWeight: 0
         outWeight: 0
+      - serializedVersion: 3
+        time: 0.7083333
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1.625
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -4329,9 +4337,85 @@ AnimationClip:
     path: root/transRotScale/hip/chest/head
     classID: 114
     script: {fileID: 11500000, guid: 5db2cc9d15d8e1c4e81fbc747c163d99, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.7083333
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1.625
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Enabled
+    path: root
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.7083333
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1.625
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Enabled
+    path: root/transRotScale
+    classID: 23
+    script: {fileID: 0}
   m_PPtrCurves:
   - curve:
     - time: 0
+      value: {fileID: 2100000, guid: 98ffd0920135b4ffe8c7ffcfcb35cf40, type: 2}
+    - time: 1.625
       value: {fileID: 2100000, guid: 98ffd0920135b4ffe8c7ffcfcb35cf40, type: 2}
     attribute: m_Materials.Array.data[0]
     path: root/transRotScale/hip/chest/leftUp_arm/leftLow_arm/left_hand/left_thumb
@@ -4340,12 +4424,16 @@ AnimationClip:
   - curve:
     - time: 0
       value: {fileID: 2100000, guid: 81ee593563f5b42a599609ae05ee33e8, type: 2}
+    - time: 1.625
+      value: {fileID: 2100000, guid: 81ee593563f5b42a599609ae05ee33e8, type: 2}
     attribute: m_Materials.Array.data[0]
     path: root/transRotScale/hip/chest/rightUp_arm/rightLow_arm/right_hand/right_thumb
     classID: 23
     script: {fileID: 0}
   - curve:
     - time: 0
+      value: {fileID: 2100000, guid: 98ffd0920135b4ffe8c7ffcfcb35cf40, type: 2}
+    - time: 1.625
       value: {fileID: 2100000, guid: 98ffd0920135b4ffe8c7ffcfcb35cf40, type: 2}
     attribute: m_Materials.Array.data[0]
     path: root/transRotScale/hip/leftUp_leg/leftLow_leg/left_foot/left_toe
@@ -4354,12 +4442,16 @@ AnimationClip:
   - curve:
     - time: 0
       value: {fileID: 2100000, guid: 81ee593563f5b42a599609ae05ee33e8, type: 2}
+    - time: 1.625
+      value: {fileID: 2100000, guid: 81ee593563f5b42a599609ae05ee33e8, type: 2}
     attribute: m_Materials.Array.data[0]
     path: root/transRotScale/hip/chest/rightUp_arm/rightLow_arm/right_hand
     classID: 23
     script: {fileID: 0}
   - curve:
     - time: 0
+      value: {fileID: 2100000, guid: 81ee593563f5b42a599609ae05ee33e8, type: 2}
+    - time: 1.625
       value: {fileID: 2100000, guid: 81ee593563f5b42a599609ae05ee33e8, type: 2}
     attribute: m_Materials.Array.data[0]
     path: root/transRotScale/hip/rightUp_leg/rightLow_leg/right_foot/right_toe
@@ -4368,12 +4460,16 @@ AnimationClip:
   - curve:
     - time: 0
       value: {fileID: 2100000, guid: 98ffd0920135b4ffe8c7ffcfcb35cf40, type: 2}
+    - time: 1.625
+      value: {fileID: 2100000, guid: 98ffd0920135b4ffe8c7ffcfcb35cf40, type: 2}
     attribute: m_Materials.Array.data[0]
     path: root/transRotScale/hip/chest/leftUp_arm/leftLow_arm/left_hand
     classID: 23
     script: {fileID: 0}
   - curve:
     - time: 0
+      value: {fileID: 2100000, guid: 13f8d0e5f646e4089b36ebb2c0a746fc, type: 2}
+    - time: 1.625
       value: {fileID: 2100000, guid: 13f8d0e5f646e4089b36ebb2c0a746fc, type: 2}
     attribute: m_Materials.Array.data[0]
     path: root/transRotScale/hip/chest/head/right_eye/right_pupil
@@ -4382,12 +4478,16 @@ AnimationClip:
   - curve:
     - time: 0
       value: {fileID: 2100000, guid: 13f8d0e5f646e4089b36ebb2c0a746fc, type: 2}
+    - time: 1.625
+      value: {fileID: 2100000, guid: 13f8d0e5f646e4089b36ebb2c0a746fc, type: 2}
     attribute: m_Materials.Array.data[0]
     path: root/transRotScale/hip/chest/head/left_eye/left_pupil
     classID: 23
     script: {fileID: 0}
   - curve:
     - time: 0
+      value: {fileID: 2100000, guid: 81ee593563f5b42a599609ae05ee33e8, type: 2}
+    - time: 1.625
       value: {fileID: 2100000, guid: 81ee593563f5b42a599609ae05ee33e8, type: 2}
     attribute: m_Materials.Array.data[0]
     path: root/transRotScale/hip/rightUp_leg/rightLow_leg/right_foot
@@ -4396,12 +4496,16 @@ AnimationClip:
   - curve:
     - time: 0
       value: {fileID: 2100000, guid: fc8bcc5515e8b5944929de71be32ef93, type: 2}
+    - time: 1.625
+      value: {fileID: 2100000, guid: fc8bcc5515e8b5944929de71be32ef93, type: 2}
     attribute: m_Materials.Array.data[0]
     path: root/transRotScale/hip/chest/head/nose
     classID: 23
     script: {fileID: 0}
   - curve:
     - time: 0
+      value: {fileID: 2100000, guid: 81ee593563f5b42a599609ae05ee33e8, type: 2}
+    - time: 1.625
       value: {fileID: 2100000, guid: 81ee593563f5b42a599609ae05ee33e8, type: 2}
     attribute: m_Materials.Array.data[0]
     path: root/transRotScale/hip/chest/rightUp_arm/rightLow_arm
@@ -4410,12 +4514,16 @@ AnimationClip:
   - curve:
     - time: 0
       value: {fileID: 2100000, guid: 61ce0d38be1504cac8100bb4394e3dc1, type: 2}
+    - time: 1.625
+      value: {fileID: 2100000, guid: 61ce0d38be1504cac8100bb4394e3dc1, type: 2}
     attribute: m_Materials.Array.data[0]
     path: root/transRotScale/hip/chest/head/right_eye
     classID: 23
     script: {fileID: 0}
   - curve:
     - time: 0
+      value: {fileID: 2100000, guid: 98ffd0920135b4ffe8c7ffcfcb35cf40, type: 2}
+    - time: 1.625
       value: {fileID: 2100000, guid: 98ffd0920135b4ffe8c7ffcfcb35cf40, type: 2}
     attribute: m_Materials.Array.data[0]
     path: root/transRotScale/hip/chest/leftUp_arm/leftLow_arm
@@ -4424,12 +4532,16 @@ AnimationClip:
   - curve:
     - time: 0
       value: {fileID: 2100000, guid: 98ffd0920135b4ffe8c7ffcfcb35cf40, type: 2}
+    - time: 1.625
+      value: {fileID: 2100000, guid: 98ffd0920135b4ffe8c7ffcfcb35cf40, type: 2}
     attribute: m_Materials.Array.data[0]
     path: root/transRotScale/hip/leftUp_leg/leftLow_leg/left_foot
     classID: 23
     script: {fileID: 0}
   - curve:
     - time: 0
+      value: {fileID: 2100000, guid: 61ce0d38be1504cac8100bb4394e3dc1, type: 2}
+    - time: 1.625
       value: {fileID: 2100000, guid: 61ce0d38be1504cac8100bb4394e3dc1, type: 2}
     attribute: m_Materials.Array.data[0]
     path: root/transRotScale/hip/chest/head/left_eye
@@ -4438,12 +4550,16 @@ AnimationClip:
   - curve:
     - time: 0
       value: {fileID: 2100000, guid: 086215ef8e6f946d690365d67ca13411, type: 2}
+    - time: 1.625
+      value: {fileID: 2100000, guid: 086215ef8e6f946d690365d67ca13411, type: 2}
     attribute: m_Materials.Array.data[0]
     path: root/transRotScale/hip/chest/head
     classID: 23
     script: {fileID: 0}
   - curve:
     - time: 0
+      value: {fileID: 2100000, guid: 81ee593563f5b42a599609ae05ee33e8, type: 2}
+    - time: 1.625
       value: {fileID: 2100000, guid: 81ee593563f5b42a599609ae05ee33e8, type: 2}
     attribute: m_Materials.Array.data[0]
     path: root/transRotScale/hip/chest/rightUp_arm
@@ -4452,12 +4568,16 @@ AnimationClip:
   - curve:
     - time: 0
       value: {fileID: 2100000, guid: 81ee593563f5b42a599609ae05ee33e8, type: 2}
+    - time: 1.625
+      value: {fileID: 2100000, guid: 81ee593563f5b42a599609ae05ee33e8, type: 2}
     attribute: m_Materials.Array.data[0]
     path: root/transRotScale/hip/rightUp_leg/rightLow_leg
     classID: 23
     script: {fileID: 0}
   - curve:
     - time: 0
+      value: {fileID: 2100000, guid: 98ffd0920135b4ffe8c7ffcfcb35cf40, type: 2}
+    - time: 1.625
       value: {fileID: 2100000, guid: 98ffd0920135b4ffe8c7ffcfcb35cf40, type: 2}
     attribute: m_Materials.Array.data[0]
     path: root/transRotScale/hip/leftUp_leg/leftLow_leg
@@ -4466,12 +4586,16 @@ AnimationClip:
   - curve:
     - time: 0
       value: {fileID: 2100000, guid: 98ffd0920135b4ffe8c7ffcfcb35cf40, type: 2}
+    - time: 1.625
+      value: {fileID: 2100000, guid: 98ffd0920135b4ffe8c7ffcfcb35cf40, type: 2}
     attribute: m_Materials.Array.data[0]
     path: root/transRotScale/hip/chest/leftUp_arm
     classID: 23
     script: {fileID: 0}
   - curve:
     - time: 0
+      value: {fileID: 2100000, guid: 086215ef8e6f946d690365d67ca13411, type: 2}
+    - time: 1.625
       value: {fileID: 2100000, guid: 086215ef8e6f946d690365d67ca13411, type: 2}
     attribute: m_Materials.Array.data[0]
     path: root/transRotScale/hip/chest
@@ -4480,6 +4604,8 @@ AnimationClip:
   - curve:
     - time: 0
       value: {fileID: 2100000, guid: 81ee593563f5b42a599609ae05ee33e8, type: 2}
+    - time: 1.625
+      value: {fileID: 2100000, guid: 81ee593563f5b42a599609ae05ee33e8, type: 2}
     attribute: m_Materials.Array.data[0]
     path: root/transRotScale/hip/rightUp_leg
     classID: 23
@@ -4487,12 +4613,16 @@ AnimationClip:
   - curve:
     - time: 0
       value: {fileID: 2100000, guid: 98ffd0920135b4ffe8c7ffcfcb35cf40, type: 2}
+    - time: 1.625
+      value: {fileID: 2100000, guid: 98ffd0920135b4ffe8c7ffcfcb35cf40, type: 2}
     attribute: m_Materials.Array.data[0]
     path: root/transRotScale/hip/leftUp_leg
     classID: 23
     script: {fileID: 0}
   - curve:
     - time: 0
+      value: {fileID: 2100000, guid: 086215ef8e6f946d690365d67ca13411, type: 2}
+    - time: 1.625
       value: {fileID: 2100000, guid: 086215ef8e6f946d690365d67ca13411, type: 2}
     attribute: m_Materials.Array.data[0]
     path: root/transRotScale/hip
@@ -5374,13 +5504,6 @@ AnimationClip:
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 0
-      attribute: 2455173486
-      script: {fileID: 11500000, guid: 21522589def544b70893a5538b828b02, type: 3}
-      typeID: 114
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
       path: 3001119927
       attribute: 3305885265
       script: {fileID: 0}
@@ -5393,6 +5516,20 @@ AnimationClip:
       script: {fileID: 11500000, guid: 5db2cc9d15d8e1c4e81fbc747c163d99, type: 3}
       typeID: 114
       customType: 24
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 385153371
+      attribute: 3305885265
+      script: {fileID: 0}
+      typeID: 23
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2318810286
+      attribute: 3305885265
+      script: {fileID: 0}
+      typeID: 23
+      customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
       path: 3028571890
@@ -5564,35 +5701,59 @@ AnimationClip:
       isPPtrCurve: 1
     pptrCurveMapping:
     - {fileID: 2100000, guid: 98ffd0920135b4ffe8c7ffcfcb35cf40, type: 2}
-    - {fileID: 2100000, guid: 81ee593563f5b42a599609ae05ee33e8, type: 2}
     - {fileID: 2100000, guid: 98ffd0920135b4ffe8c7ffcfcb35cf40, type: 2}
     - {fileID: 2100000, guid: 81ee593563f5b42a599609ae05ee33e8, type: 2}
     - {fileID: 2100000, guid: 81ee593563f5b42a599609ae05ee33e8, type: 2}
     - {fileID: 2100000, guid: 98ffd0920135b4ffe8c7ffcfcb35cf40, type: 2}
+    - {fileID: 2100000, guid: 98ffd0920135b4ffe8c7ffcfcb35cf40, type: 2}
+    - {fileID: 2100000, guid: 81ee593563f5b42a599609ae05ee33e8, type: 2}
+    - {fileID: 2100000, guid: 81ee593563f5b42a599609ae05ee33e8, type: 2}
+    - {fileID: 2100000, guid: 81ee593563f5b42a599609ae05ee33e8, type: 2}
+    - {fileID: 2100000, guid: 81ee593563f5b42a599609ae05ee33e8, type: 2}
+    - {fileID: 2100000, guid: 98ffd0920135b4ffe8c7ffcfcb35cf40, type: 2}
+    - {fileID: 2100000, guid: 98ffd0920135b4ffe8c7ffcfcb35cf40, type: 2}
     - {fileID: 2100000, guid: 13f8d0e5f646e4089b36ebb2c0a746fc, type: 2}
     - {fileID: 2100000, guid: 13f8d0e5f646e4089b36ebb2c0a746fc, type: 2}
+    - {fileID: 2100000, guid: 13f8d0e5f646e4089b36ebb2c0a746fc, type: 2}
+    - {fileID: 2100000, guid: 13f8d0e5f646e4089b36ebb2c0a746fc, type: 2}
+    - {fileID: 2100000, guid: 81ee593563f5b42a599609ae05ee33e8, type: 2}
     - {fileID: 2100000, guid: 81ee593563f5b42a599609ae05ee33e8, type: 2}
     - {fileID: 2100000, guid: fc8bcc5515e8b5944929de71be32ef93, type: 2}
+    - {fileID: 2100000, guid: fc8bcc5515e8b5944929de71be32ef93, type: 2}
+    - {fileID: 2100000, guid: 81ee593563f5b42a599609ae05ee33e8, type: 2}
     - {fileID: 2100000, guid: 81ee593563f5b42a599609ae05ee33e8, type: 2}
     - {fileID: 2100000, guid: 61ce0d38be1504cac8100bb4394e3dc1, type: 2}
+    - {fileID: 2100000, guid: 61ce0d38be1504cac8100bb4394e3dc1, type: 2}
+    - {fileID: 2100000, guid: 98ffd0920135b4ffe8c7ffcfcb35cf40, type: 2}
+    - {fileID: 2100000, guid: 98ffd0920135b4ffe8c7ffcfcb35cf40, type: 2}
     - {fileID: 2100000, guid: 98ffd0920135b4ffe8c7ffcfcb35cf40, type: 2}
     - {fileID: 2100000, guid: 98ffd0920135b4ffe8c7ffcfcb35cf40, type: 2}
     - {fileID: 2100000, guid: 61ce0d38be1504cac8100bb4394e3dc1, type: 2}
+    - {fileID: 2100000, guid: 61ce0d38be1504cac8100bb4394e3dc1, type: 2}
+    - {fileID: 2100000, guid: 086215ef8e6f946d690365d67ca13411, type: 2}
+    - {fileID: 2100000, guid: 086215ef8e6f946d690365d67ca13411, type: 2}
+    - {fileID: 2100000, guid: 81ee593563f5b42a599609ae05ee33e8, type: 2}
+    - {fileID: 2100000, guid: 81ee593563f5b42a599609ae05ee33e8, type: 2}
+    - {fileID: 2100000, guid: 81ee593563f5b42a599609ae05ee33e8, type: 2}
+    - {fileID: 2100000, guid: 81ee593563f5b42a599609ae05ee33e8, type: 2}
+    - {fileID: 2100000, guid: 98ffd0920135b4ffe8c7ffcfcb35cf40, type: 2}
+    - {fileID: 2100000, guid: 98ffd0920135b4ffe8c7ffcfcb35cf40, type: 2}
+    - {fileID: 2100000, guid: 98ffd0920135b4ffe8c7ffcfcb35cf40, type: 2}
+    - {fileID: 2100000, guid: 98ffd0920135b4ffe8c7ffcfcb35cf40, type: 2}
+    - {fileID: 2100000, guid: 086215ef8e6f946d690365d67ca13411, type: 2}
     - {fileID: 2100000, guid: 086215ef8e6f946d690365d67ca13411, type: 2}
     - {fileID: 2100000, guid: 81ee593563f5b42a599609ae05ee33e8, type: 2}
     - {fileID: 2100000, guid: 81ee593563f5b42a599609ae05ee33e8, type: 2}
     - {fileID: 2100000, guid: 98ffd0920135b4ffe8c7ffcfcb35cf40, type: 2}
     - {fileID: 2100000, guid: 98ffd0920135b4ffe8c7ffcfcb35cf40, type: 2}
     - {fileID: 2100000, guid: 086215ef8e6f946d690365d67ca13411, type: 2}
-    - {fileID: 2100000, guid: 81ee593563f5b42a599609ae05ee33e8, type: 2}
-    - {fileID: 2100000, guid: 98ffd0920135b4ffe8c7ffcfcb35cf40, type: 2}
     - {fileID: 2100000, guid: 086215ef8e6f946d690365d67ca13411, type: 2}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 1.625
+    m_StopTime: 1.6666666
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -18089,6 +18250,15 @@ AnimationClip:
         weightedMode: 0
         inWeight: 0
         outWeight: 0
+      - serializedVersion: 3
+        time: 1.625
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -18425,25 +18595,6 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: handlesVis
-    path: 
-    classID: 114
-    script: {fileID: 11500000, guid: 21522589def544b70893a5538b828b02, type: 3}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 103
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
     attribute: m_Enabled
     path: root/transRotScale/IK_handles/head_IK
     classID: 23
@@ -18460,6 +18611,24 @@ AnimationClip:
         weightedMode: 0
         inWeight: 0
         outWeight: 0
+      - serializedVersion: 3
+        time: 0.7083333
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1.625
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -18467,6 +18636,80 @@ AnimationClip:
     path: root/transRotScale/hip/chest/head
     classID: 114
     script: {fileID: 11500000, guid: 5db2cc9d15d8e1c4e81fbc747c163d99, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.7083333
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1.625
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Enabled
+    path: root
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.7083333
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1.625
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Enabled
+    path: root/transRotScale
+    classID: 23
+    script: {fileID: 0}
   m_EulerEditorCurves:
   - curve:
       serializedVersion: 2
@@ -18475,6 +18718,66 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
+    path: root/transRotScale/IK_handles/right_elbow_pole
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: root/transRotScale/IK_handles/right_elbow_pole
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: root/transRotScale/IK_handles/right_elbow_pole
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: root/transRotScale/IK_handles/right_foot_IK
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: root/transRotScale/IK_handles/right_foot_IK
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: root/transRotScale/IK_handles/right_foot_IK
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
     path: root/transRotScale/IK_handles/right_hand_IK
     classID: 4
     script: {fileID: 0}
@@ -18865,7 +19168,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: root/transRotScale/hip/chest/leftUp_arm/leftLow_arm/left_hand/left_thumb
+    path: root/transRotScale/IK_handles/left_knee_pole
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -18875,7 +19178,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: root/transRotScale/hip/chest/leftUp_arm/leftLow_arm/left_hand/left_thumb
+    path: root/transRotScale/IK_handles/left_knee_pole
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -18885,7 +19188,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: root/transRotScale/hip/chest/leftUp_arm/leftLow_arm/left_hand/left_thumb
+    path: root/transRotScale/IK_handles/left_knee_pole
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -18925,7 +19228,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: root/transRotScale/IK_handles/right_foot_IK
+    path: root/transRotScale/hip/chest/rightUp_arm/rightLow_arm
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -18935,7 +19238,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: root/transRotScale/IK_handles/right_foot_IK
+    path: root/transRotScale/hip/chest/rightUp_arm/rightLow_arm
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -18945,7 +19248,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: root/transRotScale/IK_handles/right_foot_IK
+    path: root/transRotScale/hip/chest/rightUp_arm/rightLow_arm
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -19465,7 +19768,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: root/transRotScale/IK_handles/left_knee_pole
+    path: root/transRotScale/hip/chest/leftUp_arm/leftLow_arm/left_hand/left_thumb
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -19475,7 +19778,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: root/transRotScale/IK_handles/left_knee_pole
+    path: root/transRotScale/hip/chest/leftUp_arm/leftLow_arm/left_hand/left_thumb
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -19485,67 +19788,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: root/transRotScale/IK_handles/left_knee_pole
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: root/transRotScale/IK_handles/right_elbow_pole
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: root/transRotScale/IK_handles/right_elbow_pole
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: root/transRotScale/IK_handles/right_elbow_pole
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: root/transRotScale/hip/chest/rightUp_arm/rightLow_arm
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: root/transRotScale/hip/chest/rightUp_arm/rightLow_arm
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: root/transRotScale/hip/chest/rightUp_arm/rightLow_arm
+    path: root/transRotScale/hip/chest/leftUp_arm/leftLow_arm/left_hand/left_thumb
     classID: 4
     script: {fileID: 0}
   - curve:
