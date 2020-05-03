@@ -154,6 +154,7 @@ On the following example, as `avatar mask greeting` animation clip is playing, `
 ### Contributors
 
 * [**Bryant Drew Jones**](https://bryantdrewjones.com/) - *GLTFUtility, and Game Design feedback*
+* [**Em Halberstadt**](https://emaudible.com) - *Trailer Sound design 🎙*
 * [**Jonathan Levstein**](http://www.jlevstein.com/) - *Programming help*
 * [**Malcolm MacDonald**](http://malcolmmacdonald.ca/) - *Tool Inspiration, Programming help & Game Design feedback*
 
