@@ -199,3 +199,4 @@ I just plea that if you choose to include violence in your content or project, p
 
 - [Create Package](https://github.com/diegodelarocha/Acorn/commits/create-package) for Package Manager including dependencies implementation to make install more straight forward.
 - Add [Stretchy Limbs](https://github.com/diegodelarocha/Acorn/tree/Stretchy-limbs) to character, Right now the logic is there, but it's kinda buggy.
+- Add Scaling capability to IK rig, likely needs to have the ik values normalized to the `localScale` of one of the main controllers, likely `positionRotationScale` node.
