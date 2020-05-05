@@ -47,6 +47,10 @@ Open Unity's Package Manager and add the following packages with the git URL:
 
 ![](/Images/ProjectManager01.png)
 
+### Version
+
+To make sure Acorn works, use a Unity Version `2019.3.2f1` or higher, since this is the version it was created and tested on. It might work on older versions as long as you can install the dependencies, but it's untested.
+
 ---------
 
 ## Set Up Assets Folder
