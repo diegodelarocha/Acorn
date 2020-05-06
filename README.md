@@ -49,7 +49,7 @@ Then, open Unity's Package Manager and add the following packages with the git U
 
 ![](/Images/ProjectManager01.png)
 
-### If using Git is not an option
+### If using Git is not an option.. or you're thinking "What is Git?"
 
 Alternatively, If using Git is not working for you, you can download this [Git-less .zip](https://github.com/diegodelarocha/Acorn/archive/local-packages.zip) that includes all dependencies locally on the `/Packages/` folder without needing to use Git technologies, and you can copy and paste them into your own project manually.
 
