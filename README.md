@@ -49,6 +49,10 @@ Then, open Unity's Package Manager and add the following packages with the git U
 
 ![](/Images/ProjectManager01.png)
 
+### If using Git is not an option
+
+Alternatively, If using Git is not working for you, you can download this other [.zip](https://github.com/diegodelarocha/Acorn/archive/local-packages.zip) that includes all dependencies on the project locally without needing to use Git technologies.
+
 ### Version
 
 To make sure Acorn works, use a Unity Version `2019.3.2f1` or higher, since this is the version it was created and tested on. It might work on older versions as long as you can install the dependencies, but it's untested.
