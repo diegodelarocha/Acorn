@@ -38,8 +38,10 @@ Meet Acorn 🐿! They're a humanoid character doll rig, that aims to aid fast ga
 ### How to install dependencies
 
 Dependencies are included by default on the `/Packages/manifest.json` file on the repo, but if you need to add them manually, you will need to add [EasyButtons](https://github.com/madsbangh/EasyButtons) and [GLTFUtility](https://github.com/sprylyltd/GLTFUtility) to your project.
+
+First, make sure you have [Git](https://git-scm.com/) installed on your computer.
   
-Open Unity's Package Manager and add the following packages with the git URL: 
+Then, open Unity's Package Manager and add the following packages with the git URL: 
 
 * `https://github.com/madsbangh/EasyButtons.git#upm`
 
