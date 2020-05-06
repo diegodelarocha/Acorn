@@ -34,9 +34,6 @@ Meet Acorn 🐿! They're a humanoid character doll rig, that aims to aid fast ga
 
 * If you added the `/Assets/acorn` folder to your project manually, add dependency packages for [EasyButtons](https://github.com/madsbangh/EasyButtons) and [GLTFUtility](https://github.com/sprylyltd/GLTFUtility) manually to your project.
 
-<div style="padding:58.11% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/415704130?byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-<p>Acorn - Installation from <a href="https://vimeo.com/diegodelarocha">Diego De la Rocha</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
-
 [![Acorn Installation Video](/Images/AcornInstallation.png)](https://vimeo.com/415704130 "Acorn Installation - Click to Watch!")
 
 
