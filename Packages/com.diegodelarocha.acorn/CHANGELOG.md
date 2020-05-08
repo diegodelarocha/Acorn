@@ -8,4 +8,4 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### This is the first release of *\<Acorn\>*.
 
-*Short description of this release*
+*First Release on Package Manager*
