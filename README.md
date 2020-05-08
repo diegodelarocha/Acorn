@@ -34,18 +34,32 @@ Meet Acorn 🐿! They're a humanoid character doll rig, that aims to aid fast ga
 
 * If you added the `/Assets/acorn` folder to your project manually, add dependency packages for [EasyButtons](https://github.com/madsbangh/EasyButtons) and [GLTFUtility](https://github.com/sprylyltd/GLTFUtility) manually to your project.
 
+[![Acorn Installation Video](/Images/AcornInstallation.png)](https://vimeo.com/415704130/3f3b20b3ab "Acorn Installation - Click to Watch!")
+
 
 ### How to install dependencies
 
 Dependencies are included by default on the `/Packages/manifest.json` file on the repo, but if you need to add them manually, you will need to add [EasyButtons](https://github.com/madsbangh/EasyButtons) and [GLTFUtility](https://github.com/sprylyltd/GLTFUtility) to your project.
+
+First, make sure you have [Git](https://git-scm.com/) installed on your computer.
   
-Open Unity's Package Manager and add the following packages with the git URL: 
+Then, open Unity's Package Manager and add the following packages with the git URL: 
 
 * `https://github.com/madsbangh/EasyButtons.git#upm`
 
 * `https://github.com/sprylyltd/GLTFUtility.git`
 
 ![](/Images/ProjectManager01.png)
+
+### If using Git is not an option.. or you're thinking "What is Git?"
+
+Alternatively, If using Git is not working for you, you can download this [Git-less .zip](https://github.com/diegodelarocha/Acorn/archive/local-packages.zip) that includes all dependencies locally on the `/Packages/` folder without needing to use Git technologies, and you can copy and paste them into your own project manually.
+
+_This approach is not recommended if you want to be able to pull updates constantly, but it's helpful, for folks, that don't have access to Git, or just want to try/play with Acorn 💜._
+
+### Version
+
+To make sure Acorn works, use a Unity Version `2019.3.2f1` or higher, since this is the version it was created and tested on. It might work on older versions as long as you can install the dependencies, but it's untested.
 
 ---------
 
@@ -154,6 +168,7 @@ On the following example, as `avatar mask greeting` animation clip is playing, `
 ### Contributors
 
 * [**Bryant Drew Jones**](https://bryantdrewjones.com/) - *GLTFUtility, and Game Design feedback*
+* [**Daffodil**](https://daff.space/) - *Programming help*
 * [**Em Halberstadt**](https://twitter.com/emaudible) - *Trailer Sound design 🎙*
 * [**Jonathan Levstein**](http://www.jlevstein.com/) - *Programming help*
 * [**Malcolm MacDonald**](http://malcolmmacdonald.ca/) - *Tool Inspiration, Programming help & Game Design feedback*
@@ -196,5 +211,7 @@ I just plea that if you choose to include violence in your content or project, p
 
 ## Contributing - Wish List Features
 
-- Add Package Manager including dependencies implementation to make install more straightforward.
-- Add Stretchy limbs to character, Right now the logic is there, but it's kinda buggy. You can check the not working script on the [Stretchy-limbs](https://github.com/diegodelarocha/Acorn/tree/Stretchy-limbs) branch.
+- [ ] Create Package including dependencies [#1](https://github.com/diegodelarocha/Acorn/issues/1)
+- [ ] Add Scaling capability to IK rig [#2](https://github.com/diegodelarocha/Acorn/issues/2)
+- [ ] Add Stretchy Limbs [#3](https://github.com/diegodelarocha/Acorn/issues/3)
+- [ ] Add Mirror Pose [#4](https://github.com/diegodelarocha/Acorn/issues/4)
