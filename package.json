@@ -11,18 +11,7 @@
     "com.madsbangh.easybuttons": "1.0.0",
     "com.siccity.gltfutility": "0.6.0"   
   },
-
-  "lock": {
-    "com.madsbangh.easybuttons": {
-      "revision": "upm",
-      "hash": "7047cf063c0dbc92b73a3d5e319ab25db877b01e"
-    },
-    "com.siccity.gltfutility": {
-      "revision": "HEAD",
-      "hash": "cb9caf77b76dc49ea831ac944e5c25d5303d45f8"
-    }
-  },
-  
+    
   "keywords": [
     "acorn",
     "rig",
