@@ -1,8 +1,16 @@
 {
     "name": "Acorn",
-    "references": [],
-    "optionalUnityReferences": [],
+    "references": [
+        "GUID:f24cf67903b27ae498b3069ecc30cc11",
+        "GUID:60ee4f27356684b3a935e3c274accecd"
+    ],
     "includePlatforms": [],
     "excludePlatforms": [],
-    "allowUnsafeCode": false
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }

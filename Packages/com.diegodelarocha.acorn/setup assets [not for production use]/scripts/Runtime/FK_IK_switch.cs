@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using EasyButtons;
 using DitzelGames;
+using DitzelGames.FastIK;
 using UnityEngine;
 
 namespace Acorn
