@@ -29,11 +29,11 @@
   "samples": [
     {
       "displayName": "acorn + tools",
-      "path": "Samples/acorn + tools"
+      "path": "Samples~ /acorn + tools"
     },
     {
       "displayName": "examples [not for production use]",
-      "path": "Samples/examples [not for production use]"
+      "path": "Samples~/examples [not for production use]"
     }
   ],
   "unity": "2019.3"
