@@ -9,7 +9,7 @@ Meet Acorn 🐿! They're a humanoid character doll rig, that aims to aid fast ga
 
 ## Getting Started
 
-* Import `/acorn/` folder into your Unity Project's `/Assets/`.
+* Import Acorn (Instructions below).
 
 * Drag and drop the prefab `/acorn/acorn.prefab` into your project's scene Hierarchy.
 
@@ -27,35 +27,45 @@ Meet Acorn 🐿! They're a humanoid character doll rig, that aims to aid fast ga
 
 ## Installing
 
-* Clone the Acorn repo or download the latest release. Choose _one_ of the following.
-  * Download [.zip](https://github.com/diegodelarocha/Acorn/archive/master.zip) and extract to your project `/Assets/`.
-  * (git) Clone into your assets folder `git clone git@github.com:diegodelarocha/Acorn.git`
-  * (git) Add repo as submodule `git submodule add git@github.com:diegodelarocha/Acorn.git Assets/acorn`
-
-* If you added the `/Assets/acorn` folder to your project manually, add dependency packages for [EasyButtons](https://github.com/madsbangh/EasyButtons) and [GLTFUtility](https://github.com/sprylyltd/GLTFUtility) manually to your project.
-
-[![Acorn Installation Video](/Images/AcornInstallation.png)](https://vimeo.com/415704130/3f3b20b3ab "Acorn Installation - Click to Watch!")
-
-
-### How to install dependencies
-
-Dependencies are included by default on the `/Packages/manifest.json` file on the repo, but if you need to add them manually, you will need to add [EasyButtons](https://github.com/madsbangh/EasyButtons) and [GLTFUtility](https://github.com/sprylyltd/GLTFUtility) to your project.
-
-First, make sure you have [Git](https://git-scm.com/) installed on your computer.
+### Using Unity Package Manager ([Help](https://docs.unity3d.com/Manual/upm-git.html)) (Recommended):
+1. Make sure you have [Git](https://git-scm.com/) installed on your computer.
+2. Add Dependencies using Unity's Package Manager with the following git URLs: 
+   
+   * `https://github.com/madsbangh/EasyButtons.git#upm`
+   * `https://github.com/sprylyltd/GLTFUtility.git`
   
-Then, open Unity's Package Manager and add the following packages with the git URL: 
+3. Add Acorn on Package Manager with the following git URL:
 
-* `https://github.com/madsbangh/EasyButtons.git#upm`
+  * `https://github.com/diegodelarocha/Acorn.git#upm`
 
-* `https://github.com/sprylyltd/GLTFUtility.git`
+![](/Images/PackageManager01.png)
 
-![](/Images/ProjectManager01.png)
+4. From Acorn's Package Manager, Import into Project the necesesary assets:
+   
+  * `acorn + tools` = Includes Acorn's prefab, and animation tools.
+  * `examples` = Includes example assets to give you an idea of what's possible. 
 
-### If using Git is not an option.. or you're thinking "What is Git?"
+![](/Images/PackageManager02.png)
 
-Alternatively, If using Git is not working for you, you can download this [Git-less .zip](https://github.com/diegodelarocha/Acorn/archive/local-packages.zip) that includes all dependencies locally on the `/Packages/` folder without needing to use Git technologies, and you can copy and paste them into your own project manually.
+### Using Git or Zip download:
 
-_This approach is not recommended if you want to be able to pull updates constantly, but it's helpful, for folks, that don't have access to Git, or just want to try/play with Acorn 💜._
+1. Make sure you have [Git](https://git-scm.com/) installed on your computer.
+
+2. Dependencies are included on Acorn's Clone or Zip, but If you want to use Acorn in an existing project, add Dependencies on your Project using Unity's Package Manager with the following git URLs: 
+   
+   * `https://github.com/madsbangh/EasyButtons.git#upm`
+   * `https://github.com/sprylyltd/GLTFUtility.git`
+  
+3. Clone or Download Zip:
+   * Clone Acorn: `git clone git@github.com:diegodelarocha/Acorn.git`
+   * Download [Acorn-master.zip](https://github.com/diegodelarocha/Acorn/archive/master.zip)
+  
+### Manual Git-less download:
+
+1. Download [Acorn-local-packages.zip](https://github.com/diegodelarocha/Acorn/archive/local-packages.zip)
+
+_This approach only works on it's own Project, and is not recommended if you want to be able to pull updates constantly, but it's helpful, for folks, that don't have access to Git, or just want to try/play with Acorn 💜._
+
 
 ### Version
 
