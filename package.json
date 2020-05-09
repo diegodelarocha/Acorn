@@ -8,8 +8,8 @@
     "url": "https://diegodelarocha.com"
   },
   "dependencies": {
-    "com.madsbangh.easybuttons": "git://github.com/madsbangh/EasyButtons.git#upm",
-    "com.siccity.gltfutility": "git://github.com/sprylyltd/GLTFUtility.git"   
+    "com.madsbangh.easybuttons": "git://github.com/madsbangh/EasyButtons.git#upm#v1.0.0",
+    "com.siccity.gltfutility": "git://github.com/sprylyltd/GLTFUtility.git#v0.6.0"   
   },  
     
   "keywords": [
