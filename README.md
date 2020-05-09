@@ -197,7 +197,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](/LICENSE.m
 
 ## Third Party Notices
 
-This project contains a third party notice which contains a list of the licenses of third party software used to build Acorn - see the  [ThirdPartyNotices.md](/ThirdPartyNotices.md) 
+This project contains a third party notice which contains a list of the licenses of third party software used to build Acorn - see the  [Third Party Notices.md](/Third-Party-Notices.md) 
  file for details
 
 ---------
