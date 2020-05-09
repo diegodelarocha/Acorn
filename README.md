@@ -7,6 +7,6 @@ Meet Acorn 🐿! They're a humanoid character doll rig, that aims to aid fast ga
 
 ---------
 
-## Package Manager Branch
+## Unity's Package Manager Branch
 
-Instructions to install
+This branch contains Unity's Package Manager package.
