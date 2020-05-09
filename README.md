@@ -221,7 +221,7 @@ I just plea that if you choose to include violence in your content or project, p
 
 ## Contributing - Wish List Features
 
-- [ ] Create Package including dependencies [#1](https://github.com/diegodelarocha/Acorn/issues/1)
+- [x] Create Package including dependencies [#1](https://github.com/diegodelarocha/Acorn/issues/1)
 - [ ] Add Scaling capability to IK rig [#2](https://github.com/diegodelarocha/Acorn/issues/2)
 - [ ] Add Stretchy Limbs [#3](https://github.com/diegodelarocha/Acorn/issues/3)
 - [ ] Add Mirror Pose [#4](https://github.com/diegodelarocha/Acorn/issues/4)
