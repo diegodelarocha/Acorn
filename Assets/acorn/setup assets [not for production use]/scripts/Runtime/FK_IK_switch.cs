@@ -8,6 +8,10 @@ namespace Acorn
 {
     
     public class FK_IK_switch : MonoBehaviour
+    /// <summary>
+    /// Controller for FK IK switches on all Acorn, 
+    /// as well as Visibility ON/OFF for Handles, both on Edit and Play mode.
+    /// </summary>
     {
     // IK-FK Switch Variables
 

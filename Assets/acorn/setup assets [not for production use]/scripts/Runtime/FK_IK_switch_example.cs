@@ -7,6 +7,15 @@ using UnityEngine;
 namespace Acorn
 {
     public class FK_IK_switch_example : MonoBehaviour
+    /// <summary>
+    /// This is a duplicate of FK_IK_switch, but 
+    /// its only for `acorn_example.prefab` since
+    /// that prefab is deprecated, and needs a separate
+    /// controller to keep the main prefab cleaner.
+    ///
+    /// Controller for FK IK switches on all Acorn, 
+    /// as well as Visibility ON/OFF for Handles, both on Edit and Play mode.
+    /// </summary>
     {
     // IK-FK Switch Variables
 
