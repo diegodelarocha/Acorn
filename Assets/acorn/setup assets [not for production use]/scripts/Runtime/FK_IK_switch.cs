@@ -34,14 +34,14 @@ namespace Acorn
 
     // Visibility Variables
         [Header("Handles Visibility (Play Mode)")]
-        public bool handlesVis;
+        public bool handlesVis = true;
         
-        private bool head_Vis;
-        private bool leftHand_Vis;
-        private bool rightHand_Vis;
-        private bool leftFoot_Vis;
-        private bool rightFoot_Vis;
-        private bool root_Vis;
+        private bool head_Vis = true;
+        private bool leftHand_Vis = true;
+        private bool rightHand_Vis = true;
+        private bool leftFoot_Vis = true;
+        private bool rightFoot_Vis =true;
+        private bool root_Vis = true;
 
     // Match FK-IK Transform Variables
 
