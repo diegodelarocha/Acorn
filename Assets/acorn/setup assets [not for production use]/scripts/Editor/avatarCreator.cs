@@ -1,9 +1,12 @@
 ﻿using UnityEditor;
 using UnityEngine;
  
-namespace Infrastructure.Editor
+namespace Acorn.Editor
 {
     public class avatarCreator
+    /// <summary>
+    /// Creates Avatar and Avatar Masks of selected objects/rigs.
+    /// </summary>
     {
         [MenuItem("Tools/AvatarTools/CreateAvatarMask")]
         private static void CreateAvatarMask()
