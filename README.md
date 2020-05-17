@@ -62,7 +62,7 @@ Meet Acorn 🐿! They're a humanoid character doll rig, that aims to aid fast ga
   
 ### Manual Git-less download:
 
-1. Download [Acorn-local-packages.zip](https://github.com/diegodelarocha/Acorn/archive/release/local-packages.zip)
+1. Download [Acorn-local_packages.zip](https://github.com/diegodelarocha/Acorn/archive/release/local_packages.zip)
 
 _This approach only works on it's own Project, and is not recommended if you want to be able to pull updates constantly, but it's helpful, for folks, that don't have access to Git, or just want to try/play with Acorn 💜._
 
