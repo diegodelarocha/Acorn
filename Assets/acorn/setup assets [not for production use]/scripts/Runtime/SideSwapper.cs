@@ -15,10 +15,10 @@ namespace Acorn
     ///Mirror's poses, useful for stuff like walk cycles.
     /// </summary>
         [SerializeField]
-        Transform headIKHandle;
+        [HideInInspector] Transform headIKHandle;
 
         [SerializeField]
-        IKPair[] IKHandlePairs;
+        [HideInInspector] IKPair[] IKHandlePairs;
 
         Quaternion mirrorRotationNormal = new Quaternion(1, 0, 0, 0);
 
