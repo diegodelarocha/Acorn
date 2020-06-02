@@ -181,7 +181,7 @@ On the following example, as `avatar mask greeting` animation clip is playing, `
 * [**Daffodil**](https://daff.space/) - *Programming help*
 * [**Em Halberstadt**](https://twitter.com/emaudible) - *Trailer Sound design 🎙*
 * [**Jonathan Levstein**](http://www.jlevstein.com/) - *Programming help*
-* [**Malcolm MacDonald**](http://malcolmmacdonald.ca/) - *Tool Inspiration, Programming help & Game Design feedback*
+* [**Malcolm MacDonald**](http://malcolmmacdonald.ca/) - *MirrorPose functionality, Tool Inspiration, Programming help & Game Design feedback*
 
     _Also, check out Malcolm's Unity's Asset Store tool - [PoseableDoll](https://assetstore.unity.com/packages/tools/animation/poseable-doll-155286), which inspired a lot of what Acorn wanted to be, to become alive_ 😍💜🙏✨
 
