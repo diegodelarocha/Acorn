@@ -121,6 +121,15 @@ If for some reason you need to preview the handles again while on `Play` mode, t
 ![](/Images/05_visibilityToggle_playMore.png)
 
 ---------
+### Mirror Pose
+
+To access the Mirror Pose button, select acorn's prefab on the Hierarchy, and you will find the component on the Inspector window.
+
+This component lets you flip a pose to the opposite side, helpful on things like walk/run cycles 🚶‍♀.
+
+![](Images/11_mirrorPose.png)
+
+---------
 
 ### Body Parts Colour Swapping
 
