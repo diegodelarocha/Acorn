@@ -9,7 +9,7 @@ using UnityEditor;
 
 namespace Acorn
 {
-    public class SideSwapper : MonoBehaviour
+    public class MirrorPose : MonoBehaviour
     {
         /// <summary>
         ///Mirror's poses, useful for stuff like walk cycles.
@@ -26,7 +26,7 @@ namespace Acorn
 
         Object[] undoObjects;
 
-        [Button("Swap Side", ButtonSpacing.Before)]
+        [Button("Mirror Pose", ButtonSpacing.Before)]
         void SwapSide()
         {
 
@@ -44,7 +44,7 @@ namespace Acorn
 
 
 #if UNITY_EDITOR
-            Undo.RecordObjects(undoObjects, "Swap Side");
+            Undo.RecordObjects(undoObjects, "Mirror Pose");
 #endif
 
 
@@ -102,7 +102,7 @@ namespace Acorn
 
         static int GetChildDepth(Transform child)
         {
-            SideSwapper thisScript = child.GetComponentInParent<SideSwapper>();
+            MirrorPose thisScript = child.GetComponentInParent<MirrorPose>();
             if (!thisScript)
             {
                 return -1;
