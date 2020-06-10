@@ -2,7 +2,7 @@
 
 Meet Acorn 🐿! They're a humanoid character doll rig, that aims to aid fast game design prototyping, and better communication between game designers and animators in Unity 💛 💜
 
-![](/Images/00_meetAcorn.png)
+![](/Images/00_meetAcorn.gif)
 
 
 ---------
@@ -38,14 +38,14 @@ Meet Acorn 🐿! They're a humanoid character doll rig, that aims to aid fast ga
 
   * `https://github.com/diegodelarocha/Acorn.git#release/upm`
 
-![](/Images/PackageManager01.png)
+![](/Images/PackageManager01.gif)
 
 4. From Acorn's Package Manager, Import into Project the necesesary assets:
    
   * `acorn + tools` = Includes Acorn's prefab, and animation tools.
   * `examples` = Includes example assets to give you an idea of what's possible. 
 
-![](/Images/PackageManager02.png)
+![](/Images/PackageManager02.gif)
 
 ### Using Git or Zip download:
 
@@ -88,7 +88,7 @@ Click on the `acorn` prefab on the Hierarchy, and under the `Animation` tab, you
 
 Acorn has both FK and IK functionality on limbs and head, and you can switch between these modes on all or a specific part of their body as you please.
 
-![](/Images/01_IK-FKSwitch.png)
+![](/Images/01_IK-FKSwitch.gif)
 
 ### FK - IK Switch - Inspector Menu
 
@@ -118,7 +118,7 @@ To preview animation without controller handles, simply enter `Play` mode 🤓, 
 
 If for some reason you need to preview the handles again while on `Play` mode, the component script on Acorn's prefab, has a property at the bottom called `Handles Visibility`, toggle that `on` and `off` to your convenience.
 
-![](/Images/05_visibilityToggle_playMore.png)
+![](/Images/05_visibilityToggle_playMore.gif)
 
 ---------
 ### Mirror Pose
@@ -127,7 +127,7 @@ To access the Mirror Pose button, select acorn's prefab on the Hierarchy, and yo
 
 This component lets you flip a pose to the opposite side, helpful on things like walk/run cycles 🚶‍♀.
 
-![](Images/11_mirrorPose.png)
+![](Images/11_mirrorPose.gif)
 
 ---------
 
@@ -135,7 +135,7 @@ This component lets you flip a pose to the opposite side, helpful on things like
 
 Included under `/acorn/animation tools/animatable material colours/` you can find some coloured materials. While posing and the property `Keyframe recording mode` is enabled, you can drag and drop a specific colour to any body part of the rig, and it will get saved on the animation clip as a reference keyframe, this should be useful to have visual representations on when a designer wants to communicate an event should happen at a specific frame and area of the body. *(ie: At frame 5, hand goes red because particles of magic should come out of their hands at that moment)*.
 
-![](/Images/06_colourSwapping.png)
+![](/Images/06_colourSwapping.gif)
 
 ---------
 
@@ -143,7 +143,7 @@ Included under `/acorn/animation tools/animatable material colours/` you can fin
 
 Example of an idle animation clip, to show how using Acorn, would work on a real world application to make an animation state.
 
-![](Images/07_idle.png)
+![](Images/07_idle.gif)
 
 ---------
 
@@ -164,7 +164,7 @@ You can find an `Avatar` and an `Avatar Mask` under `/acorn/animation tools/avat
 
 On the following example, as `avatar mask greeting` animation clip is playing, `avatar mask hip hand` layer is toggled on and off to be able to add some right hand and hip sass to Acorn's pose. This layer is using an `Avatar Mask` to only let this layer use the right arm's and hip's transformation data, making it very handy to layer in extra needed movement to have an option of placing Acorn's right hand on their hips if we choose to 💜🧠.
 
-![](/Images/10_avatarMasks.png)
+![](/Images/10_avatarMasks.gif)
 
 ---------
 
